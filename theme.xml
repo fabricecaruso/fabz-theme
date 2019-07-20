@@ -1,0 +1,692 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>4</formatVersion>
+  <view name="menu">
+    <text name="systemInfo">
+      <pos>0.0 0.61</pos>
+      <backgroundColor>00000000</backgroundColor>
+      <color>ECECEC</color>
+      <fontPath>./main/fonts/Dosis-Book.ttf</fontPath>
+      <fontSize>0.02</fontSize>
+    </text>
+    <menuText name="menufooter">
+      <fontPath>./main/fonts/Dosis-Book.ttf</fontPath>
+      <fontSize>0.02</fontSize>
+      <color>777777FF</color>
+    </menuText>
+    <menuText name="menutext">
+      <fontPath>./main/fonts/Dosis-Book.ttf</fontPath>
+      <fontSize>0.033</fontSize>
+      <color>DFDCDC</color>
+      <separatorColor>555555FF</separatorColor>
+      <selectorColor>108cc3</selectorColor>
+      <selectorGradientColor>006ca3</selectorGradientColor>            
+    </menuText>
+    <menuTextSmall name="menutextsmall">
+      <fontPath>./main/fonts/Dosis-Book.ttf</fontPath>
+      <fontSize>0.02</fontSize>
+      <color>deec00</color>
+    </menuTextSmall>
+    <menuText name="menutitle">
+      <fontPath>./main/fonts/Dosis-Book.ttf</fontPath>
+      <fontSize>0.037</fontSize>
+      <color>DFECFA</color>
+    </menuText>
+    <menuBackground name="menubg">
+      <color>2D2C2C</color>
+      <!--    <path>./../arts/frame.png</path>
+      <fadePath>./_inc/fond_menu.png</fadePath>-->
+    </menuBackground>
+    <menuIcons name="menuicons">
+      <iconKodi>./main/menu_icons/Kodi.png</iconKodi>
+      <iconSystem>./main/menu_icons/System.png</iconSystem>
+      <iconUpdates>./main/menu_icons/Updates.png</iconUpdates>
+      <iconGames>./main/menu_icons/Games.png</iconGames>
+      <iconControllers>./main/menu_icons/Controllers.png</iconControllers>
+      <iconUI>./main/menu_icons/UI.png</iconUI>
+      <iconSound>./main/menu_icons/Sound.png</iconSound>
+      <iconNetwork>./main/menu_icons/Network.png</iconNetwork>
+      <iconScraper>./main/menu_icons/Scraper.png</iconScraper>
+      <iconAdvanced>./main/menu_icons/Advanced.png</iconAdvanced>
+      <iconQuit>./main/menu_icons/Quit.png</iconQuit>
+      <iconRestart>./main/menu_icons/Restart.png</iconRestart>
+      <iconShutdown>./main/menu_icons/Shutdown.png</iconShutdown>
+      <iconFastShutdown>./main/menu_icons/Fastshutdown.png</iconFastShutdown>
+    </menuIcons>
+  </view>
+  <view name="system">
+    <image name="background" extra="true">
+      <pos>0.5 0.5</pos>
+      <origin>0.5 0.5</origin>
+      <size>0 1</size>
+    </image>
+    
+    <!--
+    <image name="footer" extra="true">
+      <path>./main/imagens/rodape.jpg</path>
+      <color>f3f3f3dd</color>
+      <pos>0 1</pos>
+      <origin>0 1</origin>
+      <size>1 0.05</size>
+    </image> -->
+    <helpsystem name="help">
+      <textColor>A2A2A2</textColor>
+      <iconColor>A2A2A2</iconColor>
+      <fontSize>0.03</fontSize>
+      <pos>0.01 0.96</pos>
+    </helpsystem>
+  </view>
+
+  <feature supported="carousel">  
+   
+    <view name="system">
+    
+      <carousel name="systemcarousel">
+        <color>FFFFFFB0</color>
+        <colorGradient>E8F6FFF6</colorGradient>
+        <pos>0 0.3837</pos>
+        <size>1 0.2325</size>
+      </carousel>
+      
+      <image name="carousel-shadow" extra="true">
+        <path>./main/imagens/shadow.png</path>
+        <color>FFFFFF50</color>
+        <pos>0 0.6162</pos>
+        <origin>0 0</origin>
+        <size>1 0.025</size>      
+      </image>
+
+      <text name="systemInfo">
+         <pos>0.35 0.95</pos>
+         <size>0.64 0.05</size>
+         <backgroundColor>00000000</backgroundColor>
+         <color>A2A2A2</color>         
+	       <fontSize>0.03</fontSize>
+	       <alignment>right</alignment>
+      </text>
+    </view>
+  </feature>
+    
+  <view name="basic, detailed, grid">
+    <helpsystem name="help">
+      <textColor>606060</textColor>
+      <iconColor>606060</iconColor>
+ <fontSize>0.03</fontSize>
+      <pos>0.01 0.96</pos>
+    </helpsystem>
+  </view>
+
+  <view name="basic">
+    <textlist name="gamelist">
+      <pos>0.02 0.13</pos>
+      <size>0.96 0.78</size>
+      <alignment>left</alignment>
+    </textlist>
+  </view>
+  <view name="detailed">
+    <video name="md_video">
+      <pos>0.73 0.445</pos>
+      <origin>0.5 0.5</origin>
+      <maxSize>0.44 0.58</maxSize>      
+      <showSnapshotNoVideo>true</showSnapshotNoVideo>
+      <showSnapshotDelay>true</showSnapshotDelay>
+    </video>
+
+    <image name="md_image">
+      <pos>1.25 0.575</pos>
+      <origin>0.5 0.5</origin>
+      <maxSize>0.44 0.58</maxSize>      
+    </image>
+    
+    <text name="md_description">
+      <pos>0.52 0.75</pos>
+      <size>0.44 0.07</size>
+      <fontSize>0.025</fontSize>
+      <color>A0A0B0</color>
+    </text>
+    <textlist name="gamelist">
+      <pos>0.02 0.13</pos>
+      <size>0.45 0.78</size>
+      <alignment>left</alignment>
+    </textlist>
+    <text name="md_rating">
+      <pos>0.91 0.96</pos>
+      <size>0.04 0.03</size>
+    </text>
+    <text name="md_lbl_developer">
+      <pos>0.52 0.8555</pos>
+    </text>
+    <text name="md_lbl_genre">
+      <pos>0.52 0.8955</pos>
+    </text>
+    <text name="md_lbl_releasedate">
+      <pos>0.79 0.8555</pos>
+    </text>
+    <text name="md_lbl_players">
+      <pos>0.79 0.8955</pos>
+    </text>
+    <text name="md_developer">
+      <pos>0.63 0.8555</pos>
+    </text>
+    <text name="md_genre">
+      <pos>0.63 0.8955</pos>
+    </text>
+    <datetime name="md_releasedate">
+      <pos>0.901 0.8555</pos>
+    </datetime>
+    <text name="md_players">
+      <pos>0.901 0.8955</pos>
+    </text>
+    <text name="md_lbl_publisher, md_lbl_lastplayed, md_lbl_playcount, md_publisher, md_playcount,md_lbl_rating">
+      <fontSize>0.01</fontSize>
+      <pos>-50 -50</pos>
+    </text>
+    <datetime name="md_lastplayed">
+      <fontSize>0.01</fontSize>
+      <pos>-50 -50</pos>
+    </datetime>
+    <text name="md_lbl_releasedate, md_lbl_developer, md_lbl_genre, md_lbl_players">
+      <forceUppercase>1</forceUppercase>
+      <fontSize>0.025</fontSize>
+      <size>0.111 0.015</size>
+      <alignment>left</alignment>
+    </text>
+    <text name="md_developer">
+      <forceUppercase>1</forceUppercase>
+      <fontSize>0.025</fontSize>
+      <size>0.187 0.015</size>
+    </text>
+    <text name="md_genre, md_players">
+      <forceUppercase>1</forceUppercase>
+      <fontSize>0.025</fontSize>
+      <size>0.187 0.015</size>
+    </text>
+    <datetime name="md_releasedate">
+      <forceUppercase>1</forceUppercase>
+      <fontSize>0.025</fontSize>
+      <size>0.2 0.015</size>
+    </datetime>
+    <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
+      <color>A0A0B0</color>
+    </text>
+    <text name="md_developer, md_publisher, md_genre, md_players, md_playcount">
+      <color>ffffff</color>
+    </text>
+    <datetime name="md_releasedate, md_lastplayed">
+      <color>ffffff</color>
+    </datetime>
+    <rating name="md_rating">
+      <filledPath>./../main/svg/star_filled.svg</filledPath>
+      <unfilledPath>./../main/svg/star_unfilled.svg</unfilledPath>
+    </rating>
+  </view>
+  <view name="basic, detailed, grid">
+    <image name="header" extra="true">
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <size>1 0.1</size>
+      <zIndex>13</zIndex>
+    </image>
+    <image name="background">
+      <path>./main/imagens/background.png</path>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <size>1 1</size>
+    </image>
+
+    <image name="footer" extra="true">
+      <path>./main/imagens/bg.jpg</path>
+      <color>FFFFFFD8</color>
+      <pos>0 1</pos>
+      <origin>0 1</origin>
+      <size>1 0.05</size>
+      <zIndex>13</zIndex>
+    </image>
+
+    <image name="logo-shadow" extra="true">
+      <path>./main/imagens/shadow.png</path>
+      <color>FFFFFF90</color>
+      <pos>0 0.1</pos>
+      <origin>0 0</origin>
+      <size>1 0.025</size>
+<zIndex>12</zIndex>
+    </image>
+    
+
+    <image name="logo-h1" extra="true">
+      <path>./main/imagens/bg.jpg</path>
+      <color>FFFFFFD8</color>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <size>1 0.1</size>
+<zIndex>13</zIndex>
+    </image>
+    
+<!--
+    <image name="logo-h2" extra="true">
+      <path>./main/svg/hl.svg</path>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <maxSize>1 0.1</maxSize>
+<zIndex>13</zIndex>
+    </image>
+    <image name="logo-h3" extra="true">
+      <path>./main/svg/hr.svg</path>
+      <pos>1 0</pos>
+      <origin>1 0</origin>
+      <maxSize>1 0.1</maxSize>
+<zIndex>13</zIndex>
+    </image>-->
+    
+    <image name="logo">
+      <pos>0.5 0.05</pos>
+      <origin>0.5 0.5</origin>
+      <maxSize>1 0.09</maxSize>      
+    </image>
+    <textlist name="gamelist">
+      <selectorColor>108cc3</selectorColor>
+      <selectorGradientColor>006ca3</selectorGradientColor>       
+      <selectedColor>FFFFFF</selectedColor>
+      <primaryColor>A0A0B0</primaryColor>
+      <secondaryColor>A0A0B0</secondaryColor>
+      <horizontalMargin>0.01</horizontalMargin>
+      <!--  <fontPath>./main/fonts/Exo2-RegularCondensed.otf</fontPath> -->
+      <fontSize>0.03</fontSize>
+    </textlist>
+  </view>
+
+  <view name="grid">
+    <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
+      <color>A0A0B000</color>
+    </text>
+    <text name="md_developer, md_publisher, md_genre, md_players, md_playcount, md_description">
+      <color>ffffff00</color>
+    </text>
+    <datetime name="md_releasedate, md_lastplayed">
+      <color>ffffff00</color>
+    </datetime>
+    <text name="md_rating">
+      <pos>0.91 0.96</pos>
+      <size>0.04 0.03</size>
+    </text>
+    
+    
+    <imagegrid name="gamegrid">
+      <pos>0 0.1</pos>
+      <size>1 0.85</size>
+      <margin>0.005 0.010</margin>
+      <padding>0.03 0.03</padding>
+      <autoLayout>4 2.15</autoLayout>
+      <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>      
+    </imagegrid>
+    <gridtile name="default">
+      <backgroundColor>FFFFFF00</backgroundColor>
+      <padding>8 8</padding>
+    </gridtile>
+    <gridtile name="selected">
+      <backgroundColor>006ca390</backgroundColor>      
+      <padding>6 6</padding>
+    </gridtile>
+    <text name="gridtile">
+      <color>ffffff</color>
+      <backgroundColor>00000000</backgroundColor>
+      <fontSize>0.020</fontSize>
+      <alignment>center</alignment>
+      <size>1 0.24</size>
+    </text>
+  </view>
+
+  <customView name="Blast" inherits="grid">
+<!--
+ <video name="mdVideoBack" extra="true">
+      <path>./main/background.mp4</path>
+      <color>FFFFFF</color>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <zIndex>12</zIndex>
+    </video>
+-->
+    <text name="md_name">
+      <color>ffffffff</color>
+      <pos>0.04 0.76</pos>
+      <size>0.92 0.10</size>
+      <alignment>center</alignment>
+
+      <glowColor>00000016</glowColor>      
+      <glowSize>4</glowSize>
+    </text>
+
+    <text name="md_developer">
+      <color>808080ff</color>
+      <pos>0.04 0.80</pos>
+      <size>0.92 0.10</size>
+      <alignment>center</alignment>
+<fontSize>0.020</fontSize>
+      <glowColor>00000016</glowColor>      
+      <glowSize>3</glowSize>
+    </text>
+
+    
+
+    <imagegrid name="gamegrid">
+    <!--  <pos>0 0.29</pos>
+      <size>1 0.41</size> -->
+      
+<!--      <padding>0.05 0.05</padding> -->
+      
+      <padding>0.05 0.14 0.05 0.30</padding>
+      
+      <scrollDirection>horizontalCenter</scrollDirection>
+      <autoLayout>5 1</autoLayout>
+      <autoLayoutSelectedZoom>1.50</autoLayoutSelectedZoom>
+      <margin>0.005 0.010</margin>
+    </imagegrid>
+    <gridtile name="default">
+      <padding>64 16</padding>
+      <backgroundColor>FFFFFF00</backgroundColor>
+      <imageSizeMode>maxSize</imageSizeMode>
+      <imageColor>FFFFFFAA</imageColor>
+      <reflexion>0.24 0.0</reflexion>
+    </gridtile>
+    <gridtile name="selected">
+      <backgroundColor>FFFFFF00</backgroundColor>
+      <padding>64 16</padding>
+      <imageColor>FFFFFFFF</imageColor>
+    </gridtile>
+    <text name="gridtile">
+      <color>80808080</color>       
+      <fontSize>0.016</fontSize>
+      <size>1 0</size>     
+    </text>
+    <text name="gridtile_selected">
+      <color>FFFFFF00</color>
+      <fontSize>0.035</fontSize>
+      <size>1 0</size>     
+    </text>
+  </customView>
+  
+<customView name="Detailed Blast" inherits="Blast">
+    <image name="gamelistBackground" extra="true">
+      <path>./main/imagens/filter.png</path>
+      <color>00000050</color>
+      <origin>0 0</origin>
+      <pos>0.66 0.1</pos>
+      <size>0.34 0.85</size>
+    </image>
+
+    <imagegrid name="gamegrid">      
+      <pos>0 0.1</pos>
+      <size>0.66 0.85</size>
+      <autoLayout>3 1</autoLayout>
+    </imagegrid>
+
+    <text name="md_name">
+      <color>ffffffff</color>
+      <pos>0.68 0.12</pos>
+      <size>0.30 0.05</size>
+      <color>F0F0F0</color>
+      <fontSize>0.042</fontSize>
+      <fontPath>./main/fonts/Dosis-Light.ttf</fontPath>
+      <alignment>center</alignment>
+    </text>
+
+    <text name="md_developer">
+      <color>00000000</color>
+    </text>
+
+   <image name="tvOverlay" extra="true">
+      <path>./main/imagens/tv.png</path>
+      <color>FFFFFFFF</color>
+      <pos>0.83 0.423</pos>
+      <origin>0.5 0.5</origin>
+      <maxSize>0.30 0.43</maxSize> 
+      <zIndex>50</zIndex>
+    </image>
+
+    <video name="md_video">
+      <pos>0.803 0.41</pos>
+      <maxSize>0.22 0.29</maxSize>
+      <origin>0.5 0.5</origin>
+      <delay>1</delay>
+      <showSnapshotNoVideo>true</showSnapshotNoVideo>
+      <showSnapshotDelay>true</showSnapshotDelay>
+    </video>
+
+    <image name="md_image">
+      <pos>1.25 0.575</pos>
+      <origin>0.5 0.5</origin>
+      <maxSize>0.14 0.18</maxSize>
+    </image>
+    
+    <text name="md_description">
+      <pos>0.68 0.67</pos>
+      <size>0.30 0.24</size>
+      <fontSize>0.025</fontSize>
+      <color>A0A0B0</color>
+    </text>
+  </customView>
+
+  <customView name="DVD Boxes" inherits="grid">
+    <imagegrid name="gamegrid">
+      <autoLayout>5 2</autoLayout>
+      <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
+      <scrollDirection>horizontal</scrollDirection>
+      <margin>0.005 0.010</margin>
+    </imagegrid>
+    <gridtile name="default">
+      <padding>24 24</padding>
+
+      <backgroundImage>:/frame.png</backgroundImage>
+      <backgroundCornerSize>16 16</backgroundCornerSize>
+
+      <backgroundColor>FFFFFF00</backgroundColor>
+      <imageSizeMode>maxSize</imageSizeMode>
+      <imageColor>FFFFFFAA</imageColor>
+    </gridtile>
+    <gridtile name="selected">
+      <padding>8 8</padding>
+      <imageColor>FFFFFFFF</imageColor>
+    </gridtile>
+    <text name="gridtile">
+      <color>A0A0A0</color>
+      <fontSize>0.022</fontSize>
+      <size>1 0.18</size>
+    </text>
+    <text name="gridtile_selected">
+      <color>FFFFFFFF</color>
+    </text>
+  </customView>
+  
+  <customView name="DVD Boxes #2" inherits="DVD Boxes">
+<imagegrid name="gamegrid">
+<autoLayout>6 2</autoLayout>
+  </imagegrid>
+    <video name="mdVideoBack" extra="true">
+      <path>./main/background.mp4</path>
+      <color>FFFFFF</color>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <zIndex>12</zIndex>
+    </video>
+  </customView>
+
+  
+  <customView name="Detailed DVD Boxes" inherits="DVD Boxes">
+
+    <image name="gamelistBackground" extra="true">
+      <path>./main/imagens/filter.png</path>
+      <color>00000050</color>
+      <origin>0 0</origin>
+      <pos>0.66 0.1</pos>
+      <size>0.34 0.85</size>
+    </image>
+
+    <imagegrid name="gamegrid">
+      <autoLayout>3 2</autoLayout>
+     
+      <pos>0 0.1</pos>
+      <size>0.66 0.85</size>
+    <!--
+      <padding>0.03 0.03 0.36 0.03</padding>-->
+    </imagegrid>
+
+    <text name="md_name">
+      <color>ffffffff</color>
+      <pos>0.68 0.12</pos>
+      <size>0.30 0.05</size>
+      <color>F0F0F0</color>
+      <fontSize>0.042</fontSize>
+      <fontPath>./main/fonts/Dosis-Light.ttf</fontPath>
+      <alignment>center</alignment>
+    </text>
+
+   <image name="tvOverlay" extra="true">
+      <path>./main/imagens/tv.png</path>
+      <color>FFFFFFFF</color>
+      <pos>0.83 0.423</pos>
+      <origin>0.5 0.5</origin>
+      <maxSize>0.30 0.43</maxSize> 
+      <zIndex>50</zIndex>
+    </image>
+
+    <video name="md_video">
+
+      <pos>0.803 0.41</pos>
+      <maxSize>0.22 0.29</maxSize>
+      <origin>0.5 0.5</origin>
+      <delay>1</delay>
+      <showSnapshotNoVideo>true</showSnapshotNoVideo>
+      <showSnapshotDelay>true</showSnapshotDelay>
+    </video>
+
+    <image name="md_image">
+      <pos>1.25 0.575</pos>
+      <origin>0.5 0.5</origin>
+      <maxSize>0.14 0.18</maxSize>
+    </image>
+    
+    <text name="md_description">
+      <pos>0.68 0.67</pos>
+      <size>0.30 0.24</size>
+      <fontSize>0.025</fontSize>
+      <color>A0A0B0</color>
+    </text>
+  </customView>
+  
+  <customView name="Detailed 2D Boxes" inherits="Detailed DVD Boxes">
+    <imagegrid name="gamegrid">
+      <autoLayout>4 2</autoLayout>
+      <scrollDirection>vertical</scrollDirection>
+
+      <pos>0 0</pos>
+      <size>0.66 1</size>
+      <padding>0.03 0.13 0.03 0.08</padding>
+      <zIndex>11</zIndex>
+<animateSelection>false</animateSelection>
+    </imagegrid>
+
+  <gridtile name="default">
+      <backgroundImage>./main/imagens/ninepatch.png</backgroundImage>
+      <backgroundCornerSize>9 9</backgroundCornerSize>
+      <padding>24 24</padding>
+      <imageSizeMode>maxSize</imageSizeMode>
+      <selectionMode>image</selectionMode>
+    </gridtile>
+ 
+  <gridtile name="selected">
+      <padding>8 8</padding>
+      <imageColor>FFFFFFFF</imageColor>
+    </gridtile>
+  </customView>
+
+  <customView name="Windows Tiles" inherits="grid">
+    <imagegrid name="gamegrid">
+      <autoLayout>4 3.15</autoLayout>
+      <autoLayoutSelectedZoom>1.02</autoLayoutSelectedZoom>
+      <imageSource>image</imageSource>
+      <margin>0.005 0.010</margin>
+
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <padding>0.03 0.13 0.03 0.08</padding>
+      <zIndex>11</zIndex>
+
+    </imagegrid>
+    <gridtile name="default">
+      <size>0.225 0.254</size>
+      <backgroundColor>00000000</backgroundColor>
+      <padding>0 0</padding>
+      <imageSizeMode>minSize</imageSizeMode>
+      <imageColor>FFFFFFAA</imageColor>
+    </gridtile>
+    <gridtile name="selected">
+      <size>0.230 0.259</size>
+      <padding>0 0</padding>
+      <backgroundColor>00000000</backgroundColor>
+      <imageColor>FFFFFFFF</imageColor>
+    </gridtile>
+    <text name="gridtile">
+      <color>ffffff</color>
+      <backgroundColor>00000090</backgroundColor>
+      <fontSize>0.022</fontSize>
+      <alignment>center</alignment>
+      <size>0 0.18</size>
+    </text>
+  </customView>
+
+  <customView name="Video grid" inherits="grid">
+    <imagegrid name="gamegrid">
+      <showVideoAtDelay>700</showVideoAtDelay>      
+      <imageSource>image</imageSource>
+      <autoLayout>4 3</autoLayout>
+      <autoLayoutSelectedZoom>1.04</autoLayoutSelectedZoom>
+      <margin>0.003 0.006</margin>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <padding>0.03 0.13 0.03 0.08</padding>
+      <zIndex>11</zIndex>
+<animateSelection>false</animateSelection>
+    </imagegrid>
+    <gridtile name="default">
+      <backgroundImage>./main/imagens/ninepatch.png</backgroundImage>
+      <backgroundCornerSize>9 9</backgroundCornerSize>    
+      <backgroundColor>00000060</backgroundColor>      
+      <padding>6 6</padding>
+      <imageSizeMode>minSize</imageSizeMode>
+      <imageColor>B0B0B0FF</imageColor>
+    </gridtile>
+    <gridtile name="selected">   
+      <backgroundColor>208cC3A0</backgroundColor>
+      <imageColor>FFFFFFFF</imageColor>
+      <padding>6 6</padding>
+    </gridtile>
+    <text name="gridtile">
+      <color>969A9E</color>
+     <!-- <backgroundColor>00000060</backgroundColor> -->
+<fontPath>./main/fonts/Dosis-Book.ttf</fontPath>
+      <fontSize>0.025</fontSize>
+      <alignment>center</alignment>      
+      <glowColor>00000030</glowColor>      
+      <glowSize>2</glowSize>
+      <size>0 0.18</size>
+    </text>
+    <text name="gridtile_selected">
+ <!--     <backgroundColor>00000090</backgroundColor> -->
+      <color>F6FAFF</color>
+<fontPath>./main/fonts/Dosis-Bold.ttf</fontPath>
+<fontSize>0.025</fontSize>
+      <glowSize>3</glowSize>
+      <glowColor>006ca322</glowColor>     
+      <size>0 0.18</size>
+    </text>
+  </customView>
+
+
+
+<customView name="Video Blast" inherits="Video grid">
+    <imagegrid name="gamegrid">
+      <scrollDirection>horizontal</scrollDirection>
+      <autoLayout>3 1</autoLayout>
+    </imagegrid>
+    </customView>
+</theme>
