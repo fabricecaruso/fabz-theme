@@ -20,7 +20,7 @@
       <color>DFDCDC</color>
       <separatorColor>555555FF</separatorColor>
       <selectorColor>108cc3</selectorColor>
-      <selectorGradientColor>006ca3</selectorGradientColor>
+      <selectorColorEnd>006ca3</selectorColorEnd>
     </menuText>
     <menuTextSmall name="menutextsmall">
       <fontPath>./main/fonts/Dosis-Book.ttf</fontPath>
@@ -65,7 +65,7 @@
     <view name="system">
       <carousel name="systemcarousel">
         <color>FFFFFFB0</color>
-        <colorGradient>E8F6FFF6</colorGradient>
+        <colorEnd>E8F6FFF6</colorEnd>
         <pos>0 0.3837</pos>
         <size>1 0.2325</size>
       </carousel>
@@ -240,7 +240,7 @@
     </image>
     <textlist name="gamelist">
       <selectorColor>108cc3</selectorColor>
-      <selectorGradientColor>006ca3</selectorGradientColor>
+      <selectorColorEnd>006ca3</selectorColorEnd>
       <selectedColor>FFFFFF</selectedColor>
       <primaryColor>A0A0B0</primaryColor>
       <secondaryColor>A0A0B0</secondaryColor>
