@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>4</formatVersion>
+  <view name="system">
+    <video name="md_video" extra="true">
+      <path>./main/videos/${system.theme}.mp4</path>
+      <default>./main/background.mp4</default>
+      <color>FFFFFF20</color>
+      <pos>0.5 0.5</pos>
+      <origin>0.5 0.5</origin>
+      <minSize>1 1</minSize>
+      <delay>0</delay>
+      <zIndex>12</zIndex>
+    </video>
+  </view>
+</theme>

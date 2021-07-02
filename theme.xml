@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <formatVersion>4</formatVersion>
+
+  <include subset="systemview" name="classic"></include>
+	<include subset="systemview" name="video view">./video.xml</include>
+ 
   <view name="menu">
     <text name="systemInfo">
       <pos>0.0 0.61</pos>
@@ -36,6 +40,7 @@
       <color>2D2C2C</color>
     </menuBackground>
     <menuIcons name="menuicons">
+      <iconKodi>./main/menu_icons/Kodi.png</iconKodi>
       <iconSystem>./main/menu_icons/System.png</iconSystem>
       <iconUpdates>./main/menu_icons/Updates.png</iconUpdates>
       <iconGames>./main/menu_icons/Games.png</iconGames>
@@ -46,13 +51,16 @@
       <iconScraper>./main/menu_icons/Scraper.png</iconScraper>
       <iconAdvanced>./main/menu_icons/Advanced.png</iconAdvanced>
       <iconQuit>./main/menu_icons/Quit.png</iconQuit>
+      <iconRestart>./main/menu_icons/Restart.png</iconRestart>
+      <iconShutdown>./main/menu_icons/Shutdown.png</iconShutdown>
+      <iconFastShutdown>./main/menu_icons/Fastshutdown.png</iconFastShutdown>
     </menuIcons>
   </view>
   <view name="system">
     <image name="background" extra="true">
       <pos>0.5 0.5</pos>
       <origin>0.5 0.5</origin>
-      <size>0 1</size>
+      <size>1 1</size>
     </image>
     <helpsystem name="help">
       <textColor>A2A2A2</textColor>
@@ -60,19 +68,26 @@
       <fontSize>0.03</fontSize>
       <pos>0.01 0.96</pos>
     </helpsystem>
+    <clock name="clock">
+      <textColor>A2A2A2FF</textColor>      
+      <fontSize>0.05</fontSize>
+      <pos>0.92 0.03</pos>
+    </clock>
   </view>
   <feature supported="carousel">
     <view name="system">
       <carousel name="systemcarousel">
         <color>FFFFFFB0</color>
         <colorEnd>E8F6FFF6</colorEnd>
-        <pos>0 0.3837</pos>
+        <pos>0 0.6537</pos>
+        <!--<pos>0 0.3837</pos>-->
         <size>1 0.2325</size>
       </carousel>
       <image name="carousel-shadow" extra="true">
         <path>./main/imagens/shadow.png</path>
         <color>FFFFFF50</color>
-        <pos>0 0.6162</pos>
+        <pos>0 0.8862</pos> 
+        <!--<pos>0 0.6162</pos>-->
         <origin>0 0</origin>
         <size>1 0.025</size>
       </image>
